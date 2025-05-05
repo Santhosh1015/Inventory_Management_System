@@ -77,35 +77,43 @@ Demo Video Link (Insert demo video link here)
 
 ## Screenshots
 ### Landing Page
+
 ![Landing Page](https://github.com/Santhosh1015/Inventory_Management_System/blob/main/images_IMS/Screenshot%202025-05-05%20183936.png?raw=true)
 
 ### Dashboard
 The dashboard shows a summary of warehouse and product details, including stock levels and recent movements.
+
 ![Dashboard](https://github.com/Santhosh1015/Inventory_Management_System/blob/main/images_IMS/Screenshot%202025-05-05%20183955.png?raw=true)
 
 ### Product Management
 This screen allows you to add, view, and edit products in the system.
+
 ![Product Management](https://github.com/Santhosh1015/Inventory_Management_System/blob/main/images_IMS/Screenshot%202025-05-05%20184109.png?raw=true
 )
 
 ### Warehouse Management
 Manage different warehouse locations where your products are stored.
+
 ![Warehouse Management](https://github.com/Santhosh1015/Inventory_Management_System/blob/main/images_IMS/Screenshot%202025-05-05%20184012.png?raw=true)
 
 ### Product Movement
 The product movement screen allows you to track and manage inventory transfers between warehouses.
+
 ![Product Movement](https://github.com/Santhosh1015/Inventory_Management_System/blob/main/images_IMS/Screenshot%202025-05-05%20184149.png?raw=true)
 
 ### Report Generation
 The reporting interface provides comprehensive inventory data and historical movement records.
+
 ![Report Generation](https://github.com/Santhosh1015/Inventory_Management_System/blob/main/images_IMS/Screenshot%202025-05-05%20184201.png?raw=true)
 
 ### Add Movement
 This form allows you to record new inventory transactions with an intuitive interface.
+
 ![Add Movement](https://github.com/Santhosh1015/Inventory_Management_System/blob/main/images_IMS/Screenshot%202025-05-05%20184227.png?raw=true)
 
 ### Edit Product
 This screen allows you to update product details and manage product information.
+
 ![Edit Product](https://github.com/Santhosh1015/Inventory_Management_System/blob/main/images_IMS/Screenshot%202025-05-05%20184338.png?raw=true)
 
 ## Technologies Used
@@ -115,5 +123,5 @@ This screen allows you to update product details and manage product information.
 - **JavaScript (jQuery)**: Used for dynamic content management.
 
 ## By 
-Santhosh R 
-karpagam Institue of Technology
+- Santhosh R 
+- karpagam Institute of Technology
