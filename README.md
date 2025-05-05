@@ -1,121 +1,98 @@
 # Inventory Management System (IMS)
 
-## Project Description
+Welcome to the **Inventory Management System (IMS)**! This project is designed to help users manage and track inventory in a warehouse, including product movements, warehouse management, and reporting.
 
-The **Inventory Management System (IMS)** is a web application built with **Flask** for managing products, warehouses, and product movements in a business. It provides functionality for adding, updating, and tracking inventory across different warehouses and categories. The system supports product movement features such as sales, purchases, and transfers.
+## Table of Contents
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Installation](#installation)
+- [How to Use](#how-to-use)
+- [Demo Video](#demo-video)
+- [Screenshots](#screenshots)
+- [Technologies Used](#technologies-used)
+
+
+## About the Project
+The **Inventory Management System (IMS)** is a web-based application built using **Flask**. The purpose of the system is to help manage product inventories in warehouses, track movements, and generate reports.
+
+Key functionalities of the system include:
+- Managing products, categories, and warehouses.
+- Adding, updating, and transferring stock between warehouses.
+- Viewing reports on product movement and inventory levels.
 
 ## Features
-
-- **Landing Page:** A welcoming page that provides a brief overview and navigation options.
-- **Dashboard:** A user-friendly interface that gives an overview of inventory, products, movements, and warehouses.
-- **Product Management:** Add and edit products with category and warehouse details.
-- **Warehouse Management:** Create and manage warehouses.
-- **Product Movement:** Track and manage product movements (sale, purchase, and transfer).
-- **Reports:** View reports for product balances and movements in different warehouses.
-
-## Technologies Used
-
-- **Frontend:** HTML, CSS, Bootstrap
-- **Backend:** Flask
-- **Database:** MySQL
-- **Version Control:** Git
+- **Dashboard**: View overall statistics and quick access to different sections.
+- **Product Management**: Add, edit, and delete products.
+- **Warehouse Management**: Create and manage warehouses.
+- **Product Movement**: Track and manage movements such as sales, purchases, and transfers between warehouses.
+- **Reports**: Generate detailed reports on stock levels and movements.
 
 ## Installation
+Follow these steps to set up the Inventory Management System on your local machine:
 
-### Prerequisites
+### 1. Clone the repository
+```bash
+git clone https://github.com/Santhosh1015/Inventory_Management_System.git
+cd Inventory_Management_System
+```
 
-Make sure you have the following installed on your system:
+### 2. Set up a virtual environment
+```bash
+python -m venv venv
+```
 
-- Python 3.x
-- MySQL server
-- Git
+### 3. Activate the virtual environment
+Windows:
+```bash
+.\venv\Scripts\activate
+```
 
-### Steps
+Mac/Linux:
+```bash
+source venv/bin/activate
+```
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/Santhosh1015/Inventory_Management_System.git
-    ```
+### 4. Install dependencies
+```bash
+pip install -r requirements.txt
+```
 
-2. Navigate to the project directory:
-    ```bash
-    cd Inventory_Management_System
-    ```
+### 5. Run the application
+```bash
+python app.py
+```
 
-3. Create a virtual environment:
-    ```bash
-    python -m venv venv
-    ```
+## How to Use
+- Log in to the application to access the dashboard.
+- Navigate to different sections using the sidebar:
+  - Warehouse: Manage your warehouse locations.
+  - Products: Add, view, and edit products.
+  - Movement: Track product transfers between warehouses.
+  - Reports: View detailed inventory and movement reports.
+- Use the forms to add or update products, warehouses, and movement records.
 
-4. Activate the virtual environment:
-
-    On Windows:
-    ```bash
-    venv\Scripts\activate
-    ```
-
-    On macOS/Linux:
-    ```bash
-    source venv/bin/activate
-    ```
-
-5. Install required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-6. Set up the MySQL database by creating the necessary tables:
-    - Create a MySQL database for the system.
-    - Update the database connection settings in the application configuration file.
-
-7. Run the Flask app:
-    ```bash
-    flask run
-    ```
-
-8. Visit `http://127.0.0.1:5000` in your browser to start using the system.
-
-## Usage
-
-- **Landing Page:** When you access the application, you will be greeted with a landing page that provides an overview of the system and basic navigation options.
-- **Dashboard:** After logging in, the dashboard will provide you with an overview of the inventory, recent product movements, warehouse details, and quick links to navigate to products, movements, and reports.
-- Navigate to **Products** to view, add, or edit products.
-- Go to **Warehouses** to manage warehouse details.
-- Use **Movement** to add product movements (sale, purchase, transfer).
-- Check **Reports** for an overview of product balances across warehouses.
+## Demo Video
+Check out the demo of the Inventory Management System:
+Demo Video Link (Insert demo video link here)
 
 ## Screenshots
-
-Below are some screenshots of the system:
-
 ### Landing Page
-
-![Landing Page Screenshot](path/to/your/image/landing_page.png)
+The landing page provides an overview of the system and a navigation menu to access different features.
 
 ### Dashboard
-
-![Dashboard Screenshot](path/to/your/image/dashboard.png)
+The dashboard shows a summary of warehouse and product details, including stock levels and recent movements.
 
 ### Product Management
+This screen allows you to add, view, and edit products in the system.
 
-![Product Management Screenshot](path/to/your/image/product_management.png)
+### Warehouse Management
+Manage different warehouse locations where your products are stored.
 
-### Movement Management
-
-![Movement Management Screenshot](path/to/your/image/movement_management.png)
-
-### Report View
-
-![Report Screenshot](path/to/your/image/report.png)
-
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes and commit them (`git commit -am 'Add feature'`).
-4. Push to your fork (`git push origin feature-branch`).
-5. Create a pull request.
+## Technologies Used
+- **Flask**: Python-based web framework used to build the application.
+- **MySQL**: Database for storing product and warehouse information.
+- **Bootstrap**: CSS framework for responsive design.
+- **JavaScript (jQuery)**: Used for dynamic content management.
 
 ## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
