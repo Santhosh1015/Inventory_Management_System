@@ -116,6 +116,10 @@ This screen allows you to update product details and manage product information.
 
 ![Edit Product](https://github.com/Santhosh1015/Inventory_Management_System/blob/main/images_IMS/Screenshot%202025-05-05%20184338.png?raw=true)
 
+### Demo Video
+[![Watch the video](https://img.youtube.com/vi/t8hvacaqIGo/0.jpg)](https://www.youtube.com/watch?v=t8hvacaqIGo)
+
+
 ## Technologies Used
 - **Flask**: Python-based web framework used to build the application.
 - **MySQL**: Database for storing product and warehouse information.
